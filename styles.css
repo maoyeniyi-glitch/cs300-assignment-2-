@@ -1,1 +1,78 @@
-/* Write your own styles here. */
+
+/* Basic mobile styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  color: #243447;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #183153;
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0 0 15px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+header a {
+  color: white;
+}
+
+section {
+  padding: 25px 20px;
+}
+
+#overview {
+  background-color: #dceaf7;
+}
+
+#overview a {
+  display: inline-block;
+  background-color: #183153;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border: 1px solid #d5dce5;
+  border-radius: 8px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #183153;
+  color: white;
+  padding: 25px 20px;
+}
+
+footer a {
+  color: white;
+}
+
+a:focus-visible {
+  outline: 3px solid #ffbf47;
+  outline-offset: 4px;
+}
