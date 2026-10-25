@@ -76,3 +76,33 @@ a:focus-visible {
   outline: 3px solid #ffbf47;
   outline-offset: 4px;
 }
+
+/* Tablet layout */
+@media (min-width: 600px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+  }
+
+  .card {
+    margin-bottom: 0;
+  }
+}
+
+/* Desktop layout */
+@media (min-width: 900px) {
+  nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  .cards {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  section {
+    padding: 45px 35px;
+  }
+}
